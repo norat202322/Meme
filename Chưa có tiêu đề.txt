@@ -1,0 +1,37 @@
+_G.Settings = {
+        Config = {
+            -- multi equip weapon
+            ["RDWP"] = false, -- Melee --> Sword --> Power
+            ["Melee"] = true,
+            ["Sword"] = false,
+            ["Power"] = false,
+    
+            ["BusoHaki"] = true, -- auto buso
+            ["KenHaki"] = true,  -- auto ken
+            ["AutoRace"] = true, -- auto awaken race
+    
+            ["DeleteSkill"] = false, -- delete effect skill
+            ["AutoSave"] = true, --auto tp save
+            ["ModeHop"] = "FastHop", -- auto hop ("SaveHop" "FastHop")
+    
+            --misc function
+            ["WhiteScreen"] = false, -- boost more fps
+            ["BoostFPS"] = true, -- supper low graphic
+    
+            --webhook
+            ["SendWehook"] = false, -- true or false
+            ["ApiWebhhok"] = "", -- put your api webhook discord
+    
+            -- auto skill
+            ["AutoSkill"] = true,
+            ["Z"] = true, -- skill z
+            ["X"] = true,  -- skill x
+            ["C"] = true,  -- skill c
+            ["V"] = true, -- skill v
+    
+            --method farm player
+            ["SelectMethod"] = "Upper",  --("Behind","Below","Upper")
+            ["DistanceMon"] = 7, -- 0-10
+            ["SelectWeapon"] = "Sword", --(Melee, Sword, Power)
+        },
+    }
